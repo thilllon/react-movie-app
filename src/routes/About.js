@@ -1,8 +1,7 @@
 import React from "react";
 import "./About.css";
 
-export function About(props) {
-  console.log(props);
+export const About = (props) => {
   return (
     <div className='about__container'>
       <span>
@@ -12,4 +11,4 @@ export function About(props) {
       <span>− George Orwell, 1984</span>
     </div>
   );
-}
+};
